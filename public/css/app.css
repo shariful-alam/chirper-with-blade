@@ -767,6 +767,9 @@ select {
 .w-full {
   width: 100%;
 }
+.max-w-2xl {
+  max-width: 42rem;
+}
 .max-w-6xl {
   max-width: 72rem;
 }
@@ -899,6 +902,9 @@ select {
 }
 .p-2 {
   padding: 0.5rem;
+}
+.p-4 {
+  padding: 1rem;
 }
 .p-6 {
   padding: 1.5rem;
@@ -1325,6 +1331,10 @@ select {
     border-radius: 0.5rem;
   }
 
+  .sm\:p-6 {
+    padding: 1.5rem;
+  }
+
   .sm\:px-6 {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
@@ -1357,6 +1367,10 @@ select {
   }
 }
 @media (min-width: 1024px) {
+
+  .lg\:p-8 {
+    padding: 2rem;
+  }
 
   .lg\:px-8 {
     padding-left: 2rem;
